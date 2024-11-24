@@ -7,7 +7,6 @@ import requests
 def get_latitude_longitude(address):
     api_key = settings.GOOGLE_MAPS_API_KEY
     url = f"https://maps.googleapis.com/maps/api/geocode/json?address={address.replace(' ', '+')}&key={api_key}"
-    
     response = requests.get(url)
     data = response.json()
     
