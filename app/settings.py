@@ -28,7 +28,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'geolocation_project.urls'
+ROOT_URLCONF = 'app.urls'
 
 TEMPLATES = [
     {
